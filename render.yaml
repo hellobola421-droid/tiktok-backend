@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: tt-downloader-backend
+    env: node
+    buildCommand: npm install && pip3 install -U yt-dlp
+    startCommand: npm start
